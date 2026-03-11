@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+
+    <h2>Negrito/Destaque</h2>
+    <p>Na frase temos uma <b>parte do texto em negrito</b> usando a tag B (não semântica)</p>
+    <p>Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag strong (com semântica)</p>
+
+    <h2>Itálico/Ênfase</h2>
+    <p>Nesta frase vamos entrar com uma palavra em <i>itálico</i> usando a tag i (não semântica)</p>
+    <p>Nesta frase vamos entrar com uma palavra em <em>itálico</em> usando a tag EM (com semântica)</p>
+
+    <h2>Texto marcador</h2>
+    <p>Aqui vamos usar um texto com destaque de <mark style="background-color: green;">marcador de texto</mark> usando mark</p>
+    <p>Aqui vamos usar um texto com destaque de <mark style="background-color: yellow;">marcador de texto</mark> </p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos trabalhando aqui com um <big>texto grande</big> e um <big>texto pequeno</big> nesta frase.</p>
+
+    <h2>Texto deletado</h2>
+    <p>Neste paragrafo vamos trabalhar com um texto <strike>que foi excluído</strike> da frase (forma semântica)</p>
+
+    <h2>Texto inserido</h2>
+    <p>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semântica</p>
+    <p>Nesta frase vamos demonstrar como <ins>destacar um texto inserido</ins> na frase de forma semântica</p>
+
+    <h2>Texto Sobrescrito</h2>
+    <p>Vamos demonstrar uma formula da equação do segundo grau ax<sup>2</sup> + bx + c = 0</p>
+
+    <h2>Texto Subescrito</h2>
+    <p>Vamos demonstrar o texto subescrito com a formula da água H<sub>2</sub>O</p>
+
+    <h2>Trecho de código fonte</h2>
+    <p>Neste exemplo vou demonstrar um trecho de código <br></p>
+    <p>Inserido o código <code>document.getElementById('edtCodigo')</code> que é um comando javascript <br></p>
+    <p>inserindo um longo código Python <br></p>
+    <pre>def ConexaoBanco():
+	Con = None
+	try:
+		Con = sqlite3.connect("database.db")
+	except Error as ex:
+		print("Ops! Um erro ocorreu!")
+		print("Código de erro: ", ex)
+	return Con</pre>
+
+    <h2>Citações (quotation) simples</h2>
+</body>
+</html>
