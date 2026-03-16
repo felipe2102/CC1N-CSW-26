@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 04</title>
+    <style>
+        * {
+            color: #cdd6f4;
+            background-color: #1e1e2e;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Principais Formatações</h1>
 
@@ -17,7 +25,8 @@
     <p>Nesta frase vamos entrar com uma palavra em <em>itálico</em> usando a tag EM (com semântica)</p>
 
     <h2>Texto marcador</h2>
-    <p>Aqui vamos usar um texto com destaque de <mark style="background-color: green;">marcador de texto</mark> usando mark</p>
+    <p>Aqui vamos usar um texto com destaque de <mark style="background-color: green;">marcador de texto</mark> usando
+        mark</p>
     <p>Aqui vamos usar um texto com destaque de <mark style="background-color: yellow;">marcador de texto</mark> </p>
 
     <h2>Texto grande e pequeno</h2>
@@ -40,15 +49,29 @@
     <p>Neste exemplo vou demonstrar um trecho de código <br></p>
     <p>Inserido o código <code>document.getElementById('edtCodigo')</code> que é um comando javascript <br></p>
     <p>inserindo um longo código Python <br></p>
-    <pre>def ConexaoBanco():
+    <pre> <code>def ConexaoBanco():
 	Con = None
 	try:
 		Con = sqlite3.connect("database.db")
 	except Error as ex:
 		print("Ops! Um erro ocorreu!")
 		print("Código de erro: ", ex)
-	return Con</pre>
+	return Con</code></pre>
 
     <h2>Citações (quotation) simples</h2>
+    <p>Segundo Steve Jobs <q>A tecnologia move o mundo</q></p>
+
+    <h2>Citações completas (livros)</h2>
+    <p>Segundo Irineu, em seu livro "Você não sabe nem eu"</p>
+    <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing. Mollitia dolorum libero dolorem voluptatem delectus
+        nam dolor, aliquid praesentium! Facilis dolor modi mollitia qui tenetur quas libero error, sunt nemo illum!
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr></p>
+
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Esse texto está ao contrario</bdo></p>
 </body>
+
 </html>
