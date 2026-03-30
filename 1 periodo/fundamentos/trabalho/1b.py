@@ -4,4 +4,4 @@ except Exception as erro:
     print(f'\nUm erro ocorreu! Mensagem de erro: {erro}')
 
 area = lado*lado
-print(f'')
+print(f'A área do quadrado é {area}')
