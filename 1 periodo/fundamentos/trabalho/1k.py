@@ -1,7 +1,7 @@
 import math
 
 try:
-    tamanho = int(input("Insira o tamanho do seu arquivo em Megabytes: "))
+    tamanho = float(input("Insira o tamanho do seu arquivo em Megabytes: "))
     velocidade = int(input("Insira a velocidade da sua internet em Megabytes por segundo: "))
 except Exception as erro:
     print(f'Um erro ocorreu! Código de erro: {erro}')

@@ -1,8 +1,8 @@
 import math
 
 try:
-    raio = int(input("Insira o valor do raio da caixa d'água: "))
-    altura = int(input("Insira a altura da caixa d'água: "))
+    raio = float(input("Insira o valor do raio da caixa d'água: "))
+    altura = float(input("Insira a altura da caixa d'água: "))
 except Exception as erro:
     print(f'Um erro ocorreu! Código de erro: {erro}')
 
