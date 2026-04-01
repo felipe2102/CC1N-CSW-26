@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+
+    <table border="1">
+        <tr>
+            <tbody>
+                <tr>
+                    <td>Nome:</td>
+                    <td>
+                        <input type="text" placeholder="Digite seu nome">
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail pessoal:</td>
+                    <td>
+                        <input type="text" name="email-text" id="email-text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail (patter):</td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td>Senha:</td>
+                    <td>
+                        <input type="password" name="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Idade:</td>
+                    <td>
+                        <input type="number" name="age" id="age">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <form action="submit">
+                            <label for="lot">Deixe um comentário:</label>
+                            <br>
+                            <textarea name="lot" id="lot"></textarea>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form action="submit">
+                            <label for="">Matéria de interesse:</label>
+                            <br>
+                            <input type="checkbox" name="materia" id="materia">
+                            <label for="materia">Backend</label>
+                            <br>
+                            <input type="checkbox" name="materia" id="materia">
+                            <label for="materia">FrontEnd</label>
+                            <br>
+                            <input type="checkbox" name="materia" id="materia">
+                            <label for="materia">FullStack</label>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="submit">
+                            <label for="">Tipo de viagem</label>
+                            <br>
+                            <input type="radio" name="viagem" id="viagem">
+                            <label for="viagem">Negócios</label>
+                            <br>
+                            <input type="radio" name="viagem" id="viagem">
+                            <label for="viagem">Lazer</label>
+                            <br>
+                            <input type="radio" name="viagem" id="viagem">
+                            <label for="viagem">Turismo</label>
+                            <br>
+                            <input type="radio" name="viagem" id="viagem">
+                            <label for="viagem">Acadêmico</label>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form action="submit">
+                            <label for="">Esporte favorito:</label>
+                            <select name="esporte" id="esporte" size="4">
+                                <option value="fut">Futebol</option>
+                                <option value="bas">Basquete</option>
+                                <option value="vol">Vôlei</option>
+                                <option value="te">Tênis</option>
+                            </select>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="submit">
+                            <label for="">Investimentos</label>
+                            <select name="Investimentos" id="Investimentos">
+                                <option value="pou">Poupança</option>
+                                <option value="cdb">CDB</option>
+                                <option value="tesouro">Tesouro Direto</option>
+                                <option value=""></option>
+                                <option value="imob">Fundos Imobiliários</option>
+                                <option value="cdi">CDI</option>
+                                <option value="deb">DEBÊNTURES</option>
+                                <option value=""></option>
+                                <option value="crypto">Criptomoedas</option>
+                                <option value="acoes">Ações</option>
+                            </select>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form action="submit">
+                        <label for="cor">Escolha uma cor:</label>
+                        <input type="color" name="cor" id="cor">
+                    </form>
+                    </td>
+                    
+                </tr>
+            </tbody>
+
+    </table>
+</body>
+
+</html>
