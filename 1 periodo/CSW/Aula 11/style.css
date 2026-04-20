@@ -1,0 +1,26 @@
+body {
+    background: #0664A4;
+    background: linear-gradient(90deg, rgba(6, 100, 164, 1) 0%, rgba(18, 161, 231, 1) 50%, rgba(5, 177, 191, 1) 100%);
+}
+
+#container {
+    width: 600px;
+    height: 400px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 15px 1px rgba(0,0,0,0.3);
+}
+
+#container h1 {
+    color: #0664A4;
+    text-align: center;
+}
+
+#container h2 {
+    color: #05B1BF;
+}
