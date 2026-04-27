@@ -1,0 +1,35 @@
+.link-normal a::before{
+    content: "*";
+}
+
+.link-normal a::after{
+    content: "*";
+}
+
+.link-musica a::after{
+    content: " ♬";
+}
+
+.link-normal a:hover {
+    color: green;
+}
+
+.link-musica a:hover {
+    color: red;
+}
+
+.link-normal a:active {
+    color: orange;
+}
+
+.link-musica a:active {
+    color: burlywood;
+}
+.link-musica {
+    margin-top: 25px;
+    border: 2px solid black;
+}
+
+.link-normal {
+    border: 2px solid black;
+}
