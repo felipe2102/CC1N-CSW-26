@@ -1,0 +1,134 @@
+h1 {
+    text-align: center;
+}
+
+/* Exercício 1 */
+
+.ex-1 {
+    display: flex;
+}
+
+/* Exercício 2 */
+
+.ex-2 {
+    display: flex;
+    height: 130px;
+    font-size: 40px;
+}
+
+.ex-2 #div1 {
+    display: flex;
+    background-color: green;
+    flex-grow: 1;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex-2 #div2 {
+    display: flex;
+    background-color: yellow;
+    flex-grow: 1;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex-2 #div3 {
+    display: flex;
+    background-color: red;
+    flex-grow: 1;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex-2 #div1:hover,
+.ex-2 #div2:hover,
+.ex-2 #div3:hover {
+    background-color: blue;
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* Exercício 3 */
+
+
+.ex-3 {
+    display: flex;
+    height: 130px;
+    font-size: 40px;
+}
+
+.ex-3 #div1 {
+    display: flex;
+    background-color: green;
+    flex-grow: 1;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex-3 #div2 {
+    display: flex;
+    background-color: yellow;
+    flex-grow: 1;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex-3 #div3 {
+    display: flex;
+    background-color: red;
+    flex-grow: 2;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex-3 #div4 {
+    display: flex;
+    background-color: chocolate;
+    flex-grow: 1;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex-3 #div5 {
+    display: flex;
+    background-color: teal;
+    flex-grow: 1;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ex-3 #div1:hover,
+.ex-3 #div2:hover,
+.ex-3 #div3:hover,
+.ex-3 #div4:hover,
+.ex-3 #div5:hover {
+    background-color: blue;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.ex-3 #div3:active {
+    background-color: darkmagenta;
+}
+
+/* Exercício 4 */
+
+.ex-4 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.ex-4 p {
+    margin: 10px;
+    background-color: dimgray;
+    padding: 20px;
+}
